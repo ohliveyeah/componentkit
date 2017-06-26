@@ -64,8 +64,8 @@ if [ "$MODE" = "docs" ]; then
     --explicit-crossref \
     --warn-missing-output-path \
     --warn-missing-company-id \
-    --warn-undocumented-object \
-    --warn-undocumented-member \
+    --no-keep-undocumented-object \
+    --no-keep-undocumented-member \
     --warn-empty-description \
     --warn-unknown-directive \
     --warn-invalid-crossref \
