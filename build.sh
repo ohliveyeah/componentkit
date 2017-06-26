@@ -62,6 +62,14 @@ if [ "$MODE" = "docs" ]; then
     --no-repeat-first-par \
     --no-merge-categories \
     --explicit-crossref \
+    --warn-missing-output-path \
+    --warn-missing-company-id \
+    --warn-undocumented-object \
+    --warn-undocumented-member \
+    --warn-empty-description \
+    --warn-unknown-directive \
+    --warn-invalid-crossref \
+    --warn-missing-arg \
     --project-name ComponentKit \
     --project-company Facebook \
     --company-id "org.componentkit" \
